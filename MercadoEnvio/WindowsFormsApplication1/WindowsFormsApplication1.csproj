@@ -44,35 +44,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ABM Rol\frm_Agregar_Modificar_Eliminar_Rol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM Rol\frm_Agregar_Modificar_Eliminar_Rol.Designer.cs">
+      <DependentUpon>frm_Agregar_Modificar_Eliminar_Rol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM Rol\frm_Agregar_nuevo_rol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM Rol\frm_Agregar_nuevo_rol.Designer.cs">
+      <DependentUpon>frm_Agregar_nuevo_rol.cs</DependentUpon>
+    </Compile>
     <Compile Include="ABM Rol\frm_Gestion_Rol.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ABM Rol\frm_Gestion_Rol.Designer.cs">
       <DependentUpon>frm_Gestion_Rol.cs</DependentUpon>
     </Compile>
-    <Compile Include="ABM Rol\frm_Elije_rol.cs">
+    <Compile Include="ABM Rubro\frm_Gestion_rubro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ABM Rol\frm_Elije_rol.Designer.cs">
-      <DependentUpon>frm_Elije_rol.cs</DependentUpon>
+    <Compile Include="ABM Rubro\frm_Gestion_rubro.Designer.cs">
+      <DependentUpon>frm_Gestion_rubro.cs</DependentUpon>
     </Compile>
-    <Compile Include="ABM Rol\frm_Gestion_Rol_Guardar.cs">
+    <Compile Include="ABM Usuario\frm_Gestion_usuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ABM Rol\frm_Gestion_Rol_Guardar.Designer.cs">
-      <DependentUpon>frm_Gestion_Rol_Guardar.cs</DependentUpon>
+    <Compile Include="ABM Usuario\frm_Gestion_usuario.Designer.cs">
+      <DependentUpon>frm_Gestion_usuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="ABM Rubro\Form1.cs">
+    <Compile Include="ABM Usuario\frm_Gestion_usuario_empresa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ABM Rubro\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ABM Usuario\frm_Gestion_usuario_empresa.Designer.cs">
+      <DependentUpon>frm_Gestion_usuario_empresa.cs</DependentUpon>
     </Compile>
-    <Compile Include="ABM Usuario\Form1.cs">
+    <Compile Include="ABM Usuario\frm_Agregar_nuevo_empresa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ABM Usuario\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ABM Usuario\frm_Agregar_nuevo_empresa.Designer.cs">
+      <DependentUpon>frm_Agregar_nuevo_empresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM Usuario\frm_Modificar_Eliminar_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM Usuario\frm_Modificar_Eliminar_Cliente.Designer.cs">
+      <DependentUpon>frm_Modificar_Eliminar_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM Usuario\frm_Agregar_nuevo_cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM Usuario\frm_Agregar_nuevo_cliente.Designer.cs">
+      <DependentUpon>frm_Agregar_nuevo_cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM Usuario\frm_Modificar_Eliminar_Empresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM Usuario\frm_Modificar_Eliminar_Empresa.Designer.cs">
+      <DependentUpon>frm_Modificar_Eliminar_Empresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM Usuario\frm_Gestion_usuario_cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM Usuario\frm_Gestion_usuario_cliente.Designer.cs">
+      <DependentUpon>frm_Gestion_usuario_cliente.cs</DependentUpon>
     </Compile>
     <Compile Include="ABM Visibilidad\Form1.cs">
       <SubType>Form</SubType>
@@ -130,14 +166,38 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ABM Rol\frm_Elije_rol.resx">
-      <DependentUpon>frm_Elije_rol.cs</DependentUpon>
+    <EmbeddedResource Include="ABM Rol\frm_Agregar_nuevo_rol.resx">
+      <DependentUpon>frm_Agregar_nuevo_rol.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ABM Rol\frm_Gestion_Rol.resx">
       <DependentUpon>frm_Gestion_Rol.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ABM Rol\frm_Gestion_Rol_Guardar.resx">
-      <DependentUpon>frm_Gestion_Rol_Guardar.cs</DependentUpon>
+    <EmbeddedResource Include="ABM Rol\frm_Agregar_Modificar_Eliminar_Rol.resx">
+      <DependentUpon>frm_Agregar_Modificar_Eliminar_Rol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM Rubro\frm_Gestion_rubro.resx">
+      <DependentUpon>frm_Gestion_rubro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM Usuario\frm_Modificar_Eliminar_Cliente.resx">
+      <DependentUpon>frm_Modificar_Eliminar_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM Usuario\frm_Agregar_nuevo_cliente.resx">
+      <DependentUpon>frm_Agregar_nuevo_cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM Usuario\frm_Agregar_nuevo_empresa.resx">
+      <DependentUpon>frm_Agregar_nuevo_empresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM Usuario\frm_Gestion_usuario.resx">
+      <DependentUpon>frm_Gestion_usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM Usuario\frm_Gestion_usuario_cliente.resx">
+      <DependentUpon>frm_Gestion_usuario_cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM Usuario\frm_Modificar_Eliminar_Empresa.resx">
+      <DependentUpon>frm_Modificar_Eliminar_Empresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM Usuario\frm_Gestion_usuario_empresa.resx">
+      <DependentUpon>frm_Gestion_usuario_empresa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Logeo.resx">
       <DependentUpon>frm_Logeo.cs</DependentUpon>

@@ -16,5 +16,10 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void but_Gestionar_Rol_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

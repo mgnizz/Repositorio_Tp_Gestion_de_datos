@@ -28,20 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.but_Gestionar_Rol = new System.Windows.Forms.Button();
+            this.but_Gestion_Rol = new System.Windows.Forms.Button();
             this.but_Gestionar_Rubro = new System.Windows.Forms.Button();
             this.but_Gestionar_Usuarios = new System.Windows.Forms.Button();
             this.but_Gestionar_Visibilidad = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // but_Gestionar_Rol
+            // but_Gestion_Rol
             // 
-            this.but_Gestionar_Rol.Location = new System.Drawing.Point(25, 25);
-            this.but_Gestionar_Rol.Name = "but_Gestionar_Rol";
-            this.but_Gestionar_Rol.Size = new System.Drawing.Size(121, 23);
-            this.but_Gestionar_Rol.TabIndex = 0;
-            this.but_Gestionar_Rol.Text = "Gestionar Rol";
-            this.but_Gestionar_Rol.UseVisualStyleBackColor = true;
+            this.but_Gestion_Rol.Location = new System.Drawing.Point(25, 25);
+            this.but_Gestion_Rol.Name = "but_Gestion_Rol";
+            this.but_Gestion_Rol.Size = new System.Drawing.Size(121, 23);
+            this.but_Gestion_Rol.TabIndex = 0;
+            this.but_Gestion_Rol.Text = "Gestionar Rol";
+            this.but_Gestion_Rol.UseVisualStyleBackColor = true;
+            this.but_Gestion_Rol.Click += new System.EventHandler(this.but_Gestionar_Rol_Click);
             // 
             // but_Gestionar_Rubro
             // 
@@ -78,7 +79,7 @@
             this.Controls.Add(this.but_Gestionar_Visibilidad);
             this.Controls.Add(this.but_Gestionar_Usuarios);
             this.Controls.Add(this.but_Gestionar_Rubro);
-            this.Controls.Add(this.but_Gestionar_Rol);
+            this.Controls.Add(this.but_Gestion_Rol);
             this.Name = "frm_Tareas_Administrador";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -87,7 +88,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button but_Gestionar_Rol;
+        private System.Windows.Forms.Button but_Gestion_Rol;
         private System.Windows.Forms.Button but_Gestionar_Rubro;
         private System.Windows.Forms.Button but_Gestionar_Usuarios;
         private System.Windows.Forms.Button but_Gestionar_Visibilidad;
