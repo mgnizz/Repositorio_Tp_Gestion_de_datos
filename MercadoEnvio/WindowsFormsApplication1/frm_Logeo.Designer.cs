@@ -35,8 +35,8 @@
             this.but_Ingresar = new System.Windows.Forms.Button();
             this.gro_Inicio_de_sesion = new System.Windows.Forms.GroupBox();
             this.gro_Roles_a_elegir = new System.Windows.Forms.GroupBox();
-            this.dgw_Roles_a_elegir = new System.Windows.Forms.DataGridView();
             this.but_Aceptar = new System.Windows.Forms.Button();
+            this.dgw_Roles_a_elegir = new System.Windows.Forms.DataGridView();
             this.gro_Inicio_de_sesion.SuspendLayout();
             this.gro_Roles_a_elegir.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgw_Roles_a_elegir)).BeginInit();
@@ -109,14 +109,6 @@
             this.gro_Roles_a_elegir.TabStop = false;
             this.gro_Roles_a_elegir.Text = "Roles a elegir";
             // 
-            // dgw_Roles_a_elegir
-            // 
-            this.dgw_Roles_a_elegir.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgw_Roles_a_elegir.Location = new System.Drawing.Point(11, 20);
-            this.dgw_Roles_a_elegir.Name = "dgw_Roles_a_elegir";
-            this.dgw_Roles_a_elegir.Size = new System.Drawing.Size(177, 93);
-            this.dgw_Roles_a_elegir.TabIndex = 0;
-            // 
             // but_Aceptar
             // 
             this.but_Aceptar.Location = new System.Drawing.Point(118, 119);
@@ -126,6 +118,14 @@
             this.but_Aceptar.Text = "Aceptar";
             this.but_Aceptar.UseVisualStyleBackColor = true;
             this.but_Aceptar.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // dgw_Roles_a_elegir
+            // 
+            this.dgw_Roles_a_elegir.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgw_Roles_a_elegir.Location = new System.Drawing.Point(11, 20);
+            this.dgw_Roles_a_elegir.Name = "dgw_Roles_a_elegir";
+            this.dgw_Roles_a_elegir.Size = new System.Drawing.Size(177, 93);
+            this.dgw_Roles_a_elegir.TabIndex = 0;
             // 
             // frm_Logeo
             // 
