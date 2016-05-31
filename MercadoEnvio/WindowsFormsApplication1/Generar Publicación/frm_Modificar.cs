@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace WindowsFormsApplication1.Generar_Publicación
 {
-    public partial class frm_Logeo : Form
+    public partial class frm_Modificar : Form
     {
-        public frm_Logeo()
+        public frm_Modificar()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

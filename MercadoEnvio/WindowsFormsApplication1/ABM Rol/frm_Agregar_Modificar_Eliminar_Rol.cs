@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace WindowsFormsApplication1.ABM_Rol
 {
-    public partial class frm_Logeo : Form
+    public partial class Form2 : Form
     {
-        public frm_Logeo()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

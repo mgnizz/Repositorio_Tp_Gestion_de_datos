@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace WindowsFormsApplication1.ABM_Usuario
 {
-    public partial class frm_Logeo : Form
+    public partial class frm_Gestion_usuario : Form
     {
-        public frm_Logeo()
+        public frm_Gestion_usuario()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

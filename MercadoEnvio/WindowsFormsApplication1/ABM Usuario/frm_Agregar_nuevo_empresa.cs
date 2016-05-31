@@ -8,16 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1.ABM_Rol
+namespace WindowsFormsApplication1.ABM_Usuario
 {
-    public partial class frm_Gestion_Rol_Guardar : Form
+    public partial class frm_Agregar_nuevo_empresa : Form
     {
-        public frm_Gestion_Rol_Guardar()
+        public frm_Agregar_nuevo_empresa()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }
